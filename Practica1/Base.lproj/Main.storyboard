@@ -88,7 +88,7 @@
                                     <!--2017-11-02 00:40:53 +0000-->
                                 </date>
                                 <connections>
-                                    <segue destination="DG1-cd-SQ4" kind="presentation" id="dQk-FF-ZKf"/>
+                                    <segue destination="DG1-cd-SQ4" kind="show" id="7Ng-ME-vjC"/>
                                 </connections>
                             </datePicker>
                         </subviews>
@@ -115,7 +115,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Third view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3l-yo-G6I">
-                                <rect key="frame" x="142" y="41" width="138" height="21"/>
+                                <rect key="frame" x="118" y="85" width="138" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
