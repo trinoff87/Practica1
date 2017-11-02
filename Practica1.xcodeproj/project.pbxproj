@@ -14,6 +14,8 @@
 		7D67F9E91FAA9CB80008B53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D67F9E81FAA9CB80008B53F /* Assets.xcassets */; };
 		7D67F9EC1FAA9CB80008B53F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D67F9EA1FAA9CB80008B53F /* LaunchScreen.storyboard */; };
 		7D67F9EF1FAA9CB80008B53F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D67F9EE1FAA9CB80008B53F /* main.m */; };
+		7D67F9FC1FAAA23F0008B53F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D67F9FB1FAAA23F0008B53F /* SecondViewController.m */; };
+		7D67F9FF1FAAA2540008B53F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D67F9FE1FAAA2540008B53F /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		7D67F9EB1FAA9CB80008B53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D67F9ED1FAA9CB80008B53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D67F9EE1FAA9CB80008B53F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D67F9FA1FAAA23F0008B53F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7D67F9FB1FAAA23F0008B53F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7D67F9FD1FAAA2540008B53F /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7D67F9FE1FAAA2540008B53F /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +66,8 @@
 		7D67F9DB1FAA9CB80008B53F /* Practica1 */ = {
 			isa = PBXGroup;
 			children = (
-				7D67F9F51FAA9CC30008B53F /* New Group */,
-				7D67F9DC1FAA9CB80008B53F /* AppDelegate.h */,
-				7D67F9DD1FAA9CB80008B53F /* AppDelegate.m */,
-				7D67F9DF1FAA9CB80008B53F /* ViewController.h */,
-				7D67F9E01FAA9CB80008B53F /* ViewController.m */,
+				7D67F9F61FAA9CD00008B53F /* Controllers */,
+				7D67F9F51FAA9CC30008B53F /* Main */,
 				7D67F9E21FAA9CB80008B53F /* Main.storyboard */,
 				7D67F9E81FAA9CB80008B53F /* Assets.xcassets */,
 				7D67F9EA1FAA9CB80008B53F /* LaunchScreen.storyboard */,
@@ -75,11 +78,26 @@
 			path = Practica1;
 			sourceTree = "<group>";
 		};
-		7D67F9F51FAA9CC30008B53F /* New Group */ = {
+		7D67F9F51FAA9CC30008B53F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				7D67F9DC1FAA9CB80008B53F /* AppDelegate.h */,
+				7D67F9DD1FAA9CB80008B53F /* AppDelegate.m */,
 			);
-			path = "New Group";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7D67F9F61FAA9CD00008B53F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D67F9DF1FAA9CB80008B53F /* ViewController.h */,
+				7D67F9E01FAA9CB80008B53F /* ViewController.m */,
+				7D67F9FA1FAAA23F0008B53F /* SecondViewController.h */,
+				7D67F9FB1FAAA23F0008B53F /* SecondViewController.m */,
+				7D67F9FD1FAAA2540008B53F /* ThirdViewController.h */,
+				7D67F9FE1FAAA2540008B53F /* ThirdViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,10 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D67F9FC1FAAA23F0008B53F /* SecondViewController.m in Sources */,
 				7D67F9E11FAA9CB80008B53F /* ViewController.m in Sources */,
 				7D67F9E71FAA9CB80008B53F /* Practica1.xcdatamodeld in Sources */,
 				7D67F9EF1FAA9CB80008B53F /* main.m in Sources */,
 				7D67F9DE1FAA9CB80008B53F /* AppDelegate.m in Sources */,
+				7D67F9FF1FAAA2540008B53F /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
