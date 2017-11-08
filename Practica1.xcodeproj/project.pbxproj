@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D37E79B1FB361AF00E423CD /* CellMatchTableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D37E7981FB361AE00E423CD /* CellMatchTableTableViewCell.m */; };
+		7D37E79C1FB361AF00E423CD /* CellMatchTableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D37E7991FB361AE00E423CD /* CellMatchTableTableViewCell.xib */; };
 		7D67F9DE1FAA9CB80008B53F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D67F9DD1FAA9CB80008B53F /* AppDelegate.m */; };
 		7D67F9E11FAA9CB80008B53F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D67F9E01FAA9CB80008B53F /* ViewController.m */; };
 		7D67F9E41FAA9CB80008B53F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D67F9E21FAA9CB80008B53F /* Main.storyboard */; };
@@ -16,9 +18,15 @@
 		7D67F9EF1FAA9CB80008B53F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D67F9EE1FAA9CB80008B53F /* main.m */; };
 		7D67F9FC1FAAA23F0008B53F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D67F9FB1FAAA23F0008B53F /* SecondViewController.m */; };
 		7D67F9FF1FAAA2540008B53F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D67F9FE1FAAA2540008B53F /* ThirdViewController.m */; };
+		97FEC3C1706FE225FA91697E /* libPods-Practica1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C15F16180A92C105841624D /* libPods-Practica1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4714BFA69AF281DA7423A04D /* Pods-Practica1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practica1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Practica1/Pods-Practica1.release.xcconfig"; sourceTree = "<group>"; };
+		618312D973833A4AC33D1FDA /* Pods-Practica1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practica1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Practica1/Pods-Practica1.debug.xcconfig"; sourceTree = "<group>"; };
+		7D37E7981FB361AE00E423CD /* CellMatchTableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellMatchTableTableViewCell.m; sourceTree = "<group>"; };
+		7D37E7991FB361AE00E423CD /* CellMatchTableTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellMatchTableTableViewCell.xib; sourceTree = "<group>"; };
+		7D37E79A1FB361AF00E423CD /* CellMatchTableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellMatchTableTableViewCell.h; sourceTree = "<group>"; };
 		7D67F9D91FAA9CB80008B53F /* Practica1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D67F9DC1FAA9CB80008B53F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D67F9DD1FAA9CB80008B53F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,6 +42,7 @@
 		7D67F9FB1FAAA23F0008B53F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		7D67F9FD1FAAA2540008B53F /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		7D67F9FE1FAAA2540008B53F /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		9C15F16180A92C105841624D /* libPods-Practica1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Practica1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97FEC3C1706FE225FA91697E /* libPods-Practica1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +62,8 @@
 			children = (
 				7D67F9DB1FAA9CB80008B53F /* Practica1 */,
 				7D67F9DA1FAA9CB80008B53F /* Products */,
+				D24D8D87BEFE334DEEBAF246 /* Pods */,
+				E8BADE528B4CCA23AAF5011D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +78,8 @@
 		7D67F9DB1FAA9CB80008B53F /* Practica1 */ = {
 			isa = PBXGroup;
 			children = (
+				7D7CB0501FB35CAC0063784F /* CellMatchTable */,
+				7D7CB04A1FB2D15C0063784F /* Models */,
 				7D67F9F61FAA9CD00008B53F /* Controllers */,
 				7D67F9F51FAA9CC30008B53F /* Main */,
 				7D67F9E21FAA9CB80008B53F /* Main.storyboard */,
@@ -100,6 +114,40 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		7D7CB04A1FB2D15C0063784F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D7CB0501FB35CAC0063784F /* CellMatchTable */ = {
+			isa = PBXGroup;
+			children = (
+				7D37E79A1FB361AF00E423CD /* CellMatchTableTableViewCell.h */,
+				7D37E7981FB361AE00E423CD /* CellMatchTableTableViewCell.m */,
+				7D37E7991FB361AE00E423CD /* CellMatchTableTableViewCell.xib */,
+			);
+			path = CellMatchTable;
+			sourceTree = "<group>";
+		};
+		D24D8D87BEFE334DEEBAF246 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				618312D973833A4AC33D1FDA /* Pods-Practica1.debug.xcconfig */,
+				4714BFA69AF281DA7423A04D /* Pods-Practica1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8BADE528B4CCA23AAF5011D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C15F16180A92C105841624D /* libPods-Practica1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D67F9F21FAA9CB80008B53F /* Build configuration list for PBXNativeTarget "Practica1" */;
 			buildPhases = (
+				1F44DFDA3AEE745D79FCF793 /* [CP] Check Pods Manifest.lock */,
 				7D67F9D51FAA9CB80008B53F /* Sources */,
 				7D67F9D61FAA9CB80008B53F /* Frameworks */,
 				7D67F9D71FAA9CB80008B53F /* Resources */,
+				0D7CD8A0D380103742A69031 /* [CP] Embed Pods Frameworks */,
+				7582C95E4D4C0F8D3DEF8544 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D37E79C1FB361AF00E423CD /* CellMatchTableTableViewCell.xib in Resources */,
 				7D67F9EC1FAA9CB80008B53F /* LaunchScreen.storyboard in Resources */,
 				7D67F9E91FAA9CB80008B53F /* Assets.xcassets in Resources */,
 				7D67F9E41FAA9CB80008B53F /* Main.storyboard in Resources */,
@@ -165,6 +217,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D7CD8A0D380103742A69031 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Practica1/Pods-Practica1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F44DFDA3AEE745D79FCF793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Practica1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7582C95E4D4C0F8D3DEF8544 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Practica1/Pods-Practica1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D67F9D51FAA9CB80008B53F /* Sources */ = {
@@ -174,6 +277,7 @@
 				7D67F9FC1FAAA23F0008B53F /* SecondViewController.m in Sources */,
 				7D67F9E11FAA9CB80008B53F /* ViewController.m in Sources */,
 				7D67F9E71FAA9CB80008B53F /* Practica1.xcdatamodeld in Sources */,
+				7D37E79B1FB361AF00E423CD /* CellMatchTableTableViewCell.m in Sources */,
 				7D67F9EF1FAA9CB80008B53F /* main.m in Sources */,
 				7D67F9DE1FAA9CB80008B53F /* AppDelegate.m in Sources */,
 				7D67F9FF1FAAA2540008B53F /* ThirdViewController.m in Sources */,
@@ -308,6 +412,7 @@
 		};
 		7D67F9F31FAA9CB80008B53F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618312D973833A4AC33D1FDA /* Pods-Practica1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -321,6 +426,7 @@
 		};
 		7D67F9F41FAA9CB80008B53F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4714BFA69AF281DA7423A04D /* Pods-Practica1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
